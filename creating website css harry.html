@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service In India</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        :root {
+            --navbar-height: 59px;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            position: relative;
+        }
+
+        #logo {
+            margin: 14px 35px;
+        }
+
+        #logo img {
+            height: 50px;
+            margin: 3px 6px;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+            top: 0%;
+            left: 0%;
+        }
+
+        #navbar ul {
+            display: flex;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 4px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;
+            height: 620px;
+        }
+
+        #home::before {
+            content: "";
+            background: url(food chicken.png) position: absolute width: 100%;
+            z-index: -1;
+            opacity: 0.84;
+            height: 50%;
+        }
+
+        #home h1 {
+            color: rgb(105, 105, 9);
+            text-align: center;
+        }
+
+        #home p {
+            color: rgb(77, 77, 4);
+            text-align: center;
+        }
+
+        /* utility class */
+        .h-primary {
+            font-size: 3.8rem;
+            padding: 12px;
+        }
+
+        .h-secondary {
+            font-size: 2.8rem;
+            padding: 12px;
+            width: auto;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: brown;
+            color: antiquewhite;
+            margin: 17px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        /* service centre */
+        #services {
+            margin: 34px;
+            display: flex;
+        }
+
+        #services .box {
+            border: 2px solid brown;
+            padding: 34px;
+            margin: 3px 6px;
+            background-color: rgb(250, 246, 246);
+            border-radius: 28px;
+
+        }
+
+        #services .box img {
+            height: 110px;
+            margin: auto;
+            display: block;
+        }
+
+        /* clients  */
+        #client-section {
+            height: 344px;
+        }
+
+        #client-section::before {
+            content: "";
+            position: absolute;
+
+            width: 100%;
+            height: 100%;
+        }
+
+        #clients {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #clients img {
+            height: 120px;
+            width: 150px;
+            display: inline-block;
+        }
+
+        #clients-item {
+            padding: 34px;
+        }
+        
+        .button{
+            color: rgb(75, 43, 1);
+            background-color: rgb(175, 173, 173);
+            font-size: 1rem;
+        }
+        .com{
+            display: block;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            padding: 3px 6px;
+      }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.webp" alt="my online meal.com" height="100px" width="150px">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About us</a></li>
+            <li class="item"><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora iusto dolorem accusantium modi commod
+            praesentium beatae cupiditate aspernatur voluptates est.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus libero iure ratione illo ea aquidem
+            architecto?</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pexels-photo-4109128.jpeg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam ratione excepturi!
+                    Similique asperiores assumenda est, neque doloremque architecto totam, adipisci distinctio,
+                    recusandae ipsum voluptate soluta? Error saepe deleniti soluta!</p>
+            </div>
+            <div class="box">
+                <img src="pexels-photo-4109128.jpeg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam ratione excepturi
+                    Similique asperiores assumenda est, neque doloremque architecto totam, adipisci distinctio
+                    recusandae ipsum voluptate soluta? Error saepe deleniti soluta!</p>
+            </div>
+            <div class="box">
+                <img src="food chicken.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam ratione excepturi!
+                    Similique asperiores assumenda est, neque doloremque architecto totam, adipisci distinctio,
+                    recusandae ipsum voluptate soluta? Error saepe deleniti soluta!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">our client</h1>
+        <div id="clients">
+            <img src="logo - Copy.webp" alt="our clients">
+        </div>
+        <div id="clients">
+            <img src="microsoft.png" alt="our clients">
+        </div>
+        <div id="clients">
+            <img src="logo - Copy.webp" alt="our clients">
+        </div>
+    </section>
+    <section id="child">
+        <h1 class="up">Your Details</h1>
+        <div class="com">
+            Name :<input type="text" placeholder="Enter your name">
+        </div>
+        <div class="com">
+             Email :<input type="text" placeholder="Enter your Email">
+        </div>
+        <div class="com">
+            Phone:<input type="text" placeholder="Enter Your Number">
+        </div>
+        <div>
+            <button class="button">Submit Here</button>
+        </div>
+    </section>
+</body>
+
+</html>
